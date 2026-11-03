@@ -36,7 +36,7 @@ I am clear on most of the questions asked
 1. I build a html-only webpage about myself.
 2. The main section of my website contains my profile image and a short note about me.
 3.  (a) header: I used this tag to signify what the content in webpage is all about in one glance.
-    (b) main: I used this tag for a brief about my self before breaking it down with sections and it contains my profile image and about me.
+    (b) main: I used this tag for a brief about my self before breaking it down with sections and it contains my profile image and about me including my skills, projects and education.
     (c) section: I used this tag to break down individual information about myself such as skills, education and projects.
     (d) I confused li with ul/ol but figured it out later while working.
     (e) I did not use AI.
