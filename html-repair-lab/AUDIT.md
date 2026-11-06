@@ -41,4 +41,4 @@ input tag: I changed the input tag of the Why do you want to join to textarea be
 
 div: I changed the div enclosing the Tech Club 2026 to footer since div is a generic container but footer marks the closing section of a page (or section)
 
-No breal line: I added the break tag to separate the labels from each other to give the webpage a spacious and better look for easy accessibility
+No break line: I added the break tag to separate the labels from each other to give the webpage a spacious and better look for easy accessibility
