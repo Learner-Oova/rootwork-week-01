@@ -1,58 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <h1>Tech Club</h1>
-  <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tech Club </title>
 </head>
-
 <body>
 
-<div>
+<nav>
   <a href="#about">About</a>
   <a href="#events">Events</a>
   <a href="#join">Join</a>
-</div>
+</nav>
 
-<h3 id="about">About Us</h3>
+<h1 id="about">About Us</h1>
 <p>We are a student technology club learning how to build useful things on the web.</p>
+<main>
+  <section id="events">
+    <h2>Upcoming Events</h2>
 
-<div id="events">
-  <h1>Upcoming Events</h1>
+    <ul>
+      <article>
+        <li>
+          <h3>HTML Workshop</h3>
+          <p>Saturday at 10am</p>
+        </li>
+      </article>
 
-  <ul>
-    <article>
-      <li>
-        <h4>HTML Workshop</h4>
-        <p>Saturday at 10am</p>
-      </li>
-    </article>
+      <article>
+        <li>
+          <h3>Git Practice</h3>
+          <p>Sunday at 2pm</p>
+        </li>
+      </article>
+    </ul>
+    </section>
 
-    <article>
-      <li>
-        <h2>Git Practice</h2>
-        <p>Sunday at 2pm</p>
-      </li>
-    </article>
-  </ul>
-</div>
+    <img src="club.jpg" alt="Tech Club 2026">
 
-<img src="club.jpg" alt="image">
+  <section id="join">
+    <h2>Join the Club</h2>
 
-<div id="join">
-  <h4>Join the Club</h4>
-
-  <form>
-    Name:
-    <input type="text">
-
-    Email:
-    <input type="text">
-
-    Why do you want to join?
-    <input type="text">
-
-    <button>Send</button>
-  </form>
-</div>
+    <form>
+      <label> Name:
+        <input type="text">
+      </label> <br><br>
+      <label> Email:
+        <input type="email">
+      </label> <br><br>
+      <label>  Why do you want to join?
+        <textarea></textarea>
+      </label> <br><br>
+        <button>Send</button> <br> <br>
+    </form>
+  </section>
+</main>
 
 <div>
   Tech Club 2026
