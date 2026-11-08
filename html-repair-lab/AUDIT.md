@@ -13,6 +13,8 @@ Problem: No Html fundamental tags
 
 <title>: Sets the text shown in the browser tab, bookmarks, and search results. It matters for usability and SEO.
 
+<header>: marks the introductory part of a page or section, such as a logo, title, and navigation.
+
 ## Tags changed FORMAT (Problem: Fix and why)
 
 div: <div> containing navigations was changed to nav: <nav> tells browsers and assistive tools “this is navigation,” while <div> says nothing.
