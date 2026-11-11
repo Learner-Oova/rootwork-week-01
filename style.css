@@ -1,7 +1,12 @@
+:root {
+    --background: rgb(106, 106, 218);
+    --text-color: rgb(2, 2, 101);
+}
+
 body {
     margin: 0;
     font-family: cursive;
-    color: rgb(2, 2, 101);
+    color: var(--text-color)
 }
 
 h1 {
@@ -18,11 +23,10 @@ img {
 
 nav li {
     list-style: none;
-    padding-left: 0;
 }
 
 a:hover {
-    background-color: rgb(106, 106, 218);
+    background-color: var(--background);
     color: white;
     border-radius: 5px;
     padding: 5px;
