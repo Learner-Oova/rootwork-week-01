@@ -40,3 +40,5 @@ I am clear on most of the questions asked
     (c) section: I used this tag to break down individual information about myself such as skills, education and projects.
     (d) I confused li with ul/ol but figured it out later while working.
     (e) I did not use AI.
+
+## Week 6 Learning Check 
