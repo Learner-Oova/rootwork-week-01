@@ -86,7 +86,7 @@ h2, h3, h4 {
 
 .project:hover {
     background-color: rgb(62, 62, 113);
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .contact {

@@ -41,4 +41,4 @@ I am clear on most of the questions asked
     (d) I confused li with ul/ol but figured it out later while working.
     (e) I did not use AI.
 
-## Week 6 Learning Check 
+## Week 6 Learning Check
