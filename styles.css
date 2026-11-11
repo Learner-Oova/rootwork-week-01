@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --background: rgb(106, 106, 218);
     --text-color: rgb(2, 2, 101);
@@ -11,7 +15,6 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 0px;
 }
 
 img {
@@ -19,6 +22,10 @@ img {
     float: left;
     margin-right: 25px;
     border-radius: 50px;
+}
+
+nav {
+    margin-top: 70px;
 }
 
 nav li {
@@ -35,7 +42,8 @@ a:hover {
 
 nav > ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 35px;
 }
 
 a {
@@ -45,8 +53,8 @@ a {
 main {
     background-color: rgb(241, 238, 210);
     border-radius: 30px;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 30px;
+    margin-top: 30px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
 }
 
