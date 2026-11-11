@@ -42,3 +42,15 @@ I am clear on most of the questions asked
     (e) I did not use AI.
 
 ## Week 6 Learning Check
+
+Flexbox vs. Grid: Flexbox for one-dimensional layouts (a row or column); Grid for two-dimensional layouts (rows and columns together).
+
+border-box: Width and height include padding and border, so the element stays the size you set.
+
+Margin vs. padding: Padding is space inside the border; margin is space outside it.
+
+Media query: Applies CSS only when conditions like screen width are met, enabling responsive design.
+
+max-width: 100%: Keeps images from overflowing their container, shrinking them on small screens.
+
+Confusing behaviour: The grid is not changing size with respect to screen size at first but after learning about the fr unit and the @media, I was able to fix that.
