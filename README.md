@@ -54,3 +54,5 @@ Media query: Applies CSS only when conditions like screen width are met, enablin
 max-width: 100%: Keeps images from overflowing their container, shrinking them on small screens.
 
 Confusing behaviour: The grid is not changing size with respect to screen size at first but after learning about the fr unit and the @media, I was able to fix that.
+
+NO AI was used in this process.
