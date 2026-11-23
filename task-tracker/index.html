@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task Tracker </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h2 class="heading"> Task Tracker </h2>
+        <p class="sub-heading"> Add/Remove a task, then set its status. </p>
+        <form>
+            <label>
+                <p> Task name </p>
+                <div id="inputerror"></div>
+                <input id="input" class="taskinput" type="text" placeholder="e.g HTML training">
+            </label>
+            <p class="namevalid" id="namevalid"></p>
+            <button class="add" id="addbtn" type="button"> Add </button>
+            <button class="delete" id="deletebtn" type="button"> Delete </button>
+            <label class="status">
+                <p> Status </p>
+                <div id="statuserror"></div>
+                <div class="complete">
+                    <input id="statusActivebtn" type="radio" name="status"> Active
+                </div>
+                <div class="incomplete">
+                    <input id="statusCompletebtn" type="radio" name="status"> Completed
+                </div>
+            </label>
+            <button id="submitbtn" type="button"> Submit </button>
+            <p id="submitAlert"></p>
+        </form>
+        <div class="data">
+            <button class="all tasks" id="allbtn" type="button"> All </button>
+            <button class="active tasks" id="activebtn" type="button"> Active </button>
+            <button class="completed tasks" id="completedbtn" type="button"> Completed </button>
+        </div>
+        <p id="all"></p>
+        <p id="active"></p>
+        <p id="completed"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
