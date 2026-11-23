@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(232, 229, 229);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container {
+    border: 1px solid rgb(232, 231, 231);
+    width: 315px;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    box-shadow: 0px 8px 24px rgba(27, 31, 36, 0.10);
+}
+
+.heading {
+    margin-bottom: 0;
+}
+
+.sub-heading {
+    font-size: small;
+    color: rgb(143, 143, 143);
+    margin-top: 5px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+label > p {
+    font-size: smaller;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.taskinput {
+    width: 300px;
+    height: 37px;
+    border: 1px solid rgb(159, 157, 157);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.add, .delete {
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.delete {
+    margin-left: 10px;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.add {
+    color: white;
+    background-color: rgb(65, 65, 222);
+    border: none;
+}
+
+.add:hover, .delete:hover, #submitbtn:hover, .tasks:hover {
+    transform: scale(1.03);
+}
+
+.status {
+    display: block;
+    margin-top: 25px;
+}
+
+.complete, .incomplete {
+    border: 1px solid rgb(159, 157, 157);
+    border-radius: 7px;
+    padding: 9px;
+}
+
+.incomplete {
+    margin-top: 10px;
+}
+
+#submitbtn {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    width: 315px;
+    height: 37px;
+    border-radius: 7px;
+    border: none;
+}
+
+.status > p {
+    margin-bottom: 10px;
+}
+
+.data {
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.tasks {
+    height: 37px;
+    width: 80px;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 7px;
+}
+
+.tasks:hover {
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+#inputerror, #statuserror {
+    color: red;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.namevalid, #submitAlert {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: smaller;
+    color: rgb(17, 141, 17);
+}
+#all, #active, #completed {
+    white-space: pre-line;
+    font-style: italic;
+}
+
+#allbtn:focus, #completedbtn:focus, #activebtn:focus {
+    background-color: green;
+    border: none;
+    color: white;
+}
