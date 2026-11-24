@@ -3,92 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title> My Profile </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header> 
-        <h1> My Profile </h1>
+        <h3> My Profile </h3>
+        <nav>
+            <ul>
+                <li> <a href="#about-section"> About </a> </li>
+                <li> <a href="#skills-section"> Skills </a> </li>
+                <li> <a href="#projects-section"> Projects </a> </li>
+                <li> <a href="#education-section"> Education </a> </li>
+                <li> <a href="#my-number"> Contact </a> </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li> <a href="#aboutme"> About me </a> </li>
-            <li> <a href="#skills"> Skills </a> </li>
-            <li> <a href="#projects"> Project </a> </li>
-            <li> <a href="#education"> Education </a> </li>
-            <li> <a href="#contact"> Contact </a> </li>
-        </ul>
-    </nav>
-        <main>
-            <section>
-                <h2 class="aboutme"> About me </h2>
-                <img src="https://scontent-iad6-1.cdninstagram.com/v/t51.2885-19/278688593_723996805449517_8980221255363250724_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MjAuQzMifQ%3D%3D&_nc_ohc=HLW2Eu9k91oQ7kNvwGyq4Pw&_nc_oc=AdoWB0aCYw-FO2K4rUlg2Hk7iMtCESo-kRlii1FEztALhV4qEWJZHm02-yA01044PBpFy9IbdwTwCgYzGLPwVfdZ&_nc_zt=24&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRJYuSfySsMzg0zqQyxRhf7btMu9v3m6kjXXkYBx9T2hw&oe=6AEEF37B" alt="Obafemi">
-                <p class="about"> I am Ojo-Ariyo Obafemi also known as Learner Oova. I am a graduate of Obafemi Awolowo University with a Bachelor's degree in Microbiology. I am currently learning software engineering at Rootwork fellowship. I am a lover of God. Asides my academics, I love surfing social media and having discussion with my friends and family. </p>
-            </section>
-            <section class="skills">
-                <h3> Skills </h3>
-                <ul>
-                    <li> HTML</li>
-                    <li> CSS </li>
-                    <li> JavaScript </li>
-                    <li> Git & Github </li>
-                </ul>
-            </section>
-            <section class="projects">
-                <h3> My Projects </h3>
-                <div class="projects-container" href="https://github.com/Learner-Oova/rootwork-week-01/pull/3">
-                    <div class="project 1"> Loops and Arrays </div>
-                    <div class="project 2" href="/evenodd.js"> Even or Odd </div>
-                    <div class="project 3" href="https://github.com/Learner-Oova/rootwork-week-01/blob/main/evenodd.js"> Scholarship Criteria </div>
+    <main>
+        <section class="intro-section">
+            <div class="intro-container">
+                <p class="role"> A software developer </p>
+                <h1 class="name"> Hi, I'm Ojo-Ariyo Obafemi Victor. </h1>
+                <p class="intro"> I am a student of Rootwork Engineering Fellowship. I am currently learning Frontend development.  </p>
+                <button class="btn mywork"> View my work </button>
+                <button class="btn contact-me"> Contact me </button>
+            </div>
+            <div class="image-container">
+                <img class="obafemi" src="https://pbs.twimg.com/profile_images/2038670560511823872/PjaHtiVU_400x400.jpg" alt="Obafemi">
+            </div>
+        </section>
+        <div class="line"></div>
+        <section id="about-section">
+            <h2 class="aboutme"> About me </h2>
+            <p class="info-about"> I am Ojo-Ariyo Obafemi also known as Learner Oova. I am a graduate of Obafemi Awolowo University with a Bachelor's degree in Microbiology. I am currently learning software engineering at Rootwork fellowship. I am a lover of God. Asides my academics, I love surfing social media and having discussion with my friends and family. </p>
+        </section>
+        <div class="line"></div> 
+        <section id="skills-section">
+            <h2> Skills </h2>
+            <ul>
+                <li> HTML</li>
+                <li> CSS </li>
+                <li> JavaScript </li>
+                <li> Git & Github </li>
+            </ul>
+        </section>
+        <div class="line"></div>
+        <section id="projects-section">
+            <h2> My Projects </h2>
+            <div class="projects-container">
+                <div class="project-box">
+                    <img class="container image1" src="https://i.pinimg.com/736x/3b/c9/d0/3bc9d09039f035e036b25c6158fc1e60.jpg">
+                    <div class="project info">
+                        <h3> Task tracker [HTML] </h3>
+                        <p> This is the hypertext markup language containing the structure of a task tracker app. </p>
+                        <a href="https://github.com/Learner-Oova/rootwork-week-01/blob/assignment/week7-task-tracker/task-tracker/index.html"> View project </a>
+                    </div>
                 </div>
-            </section>
-            <section class="education">
-                <h3> Education </h3>
-                <ul>
-                    <li> <strong> Microbiology </strong> <br>
-                        <i> (2021 - 2026) </i>
-                    </li>
-                    <li> <strong> Software Engineering </strong> <br>
-                        <i> (2026 - present) </i>
-                    </li>
-                </ul>
-            </section>
-            <article class="extra">
-                <h4> Extracurricular activities </h4>
-                <ul>
-                    <li> Football </li>
-                    <li> Jogging </li>
-                    <li> Chess </li>
-                    <li> Long jump </li>
-                    <li> Racing games and CODM </li>
-                </ul>
-            </article>
-            <article class="contact">
-                <h3> Contact Form </h3>
-                <form>
-                    <label> Name: <input type="text"></label> <br><br>
-                    <label> Email: <input type="email" placeholder="aa@gmail.com"></label> <br><br>
-                    <div class="reason">
-                        <label> Subject/Reason for contact: </label>
-                        <textarea></textarea> 
+                <div class="project-box">
+                    <img class="container image2" src="https://i.pinimg.com/1200x/b6/5c/00/b65c004d4396d4af63d6624e381b5411.jpg">
+                    <div class="project info">
+                        <h3> Task tracker [CSS] </h3>
+                        <p> This is the cascading stylesheet used to style a task tracker app. </p>
+                        <a href="https://github.com/Learner-Oova/rootwork-week-01/blob/assignment/week7-task-tracker/task-tracker/styles.css"> View project </a>
                     </div>
-                    <br>
-                    <div class="message">
-                        <label> Message: </label>
-                        <textarea></textarea> 
+                </div>
+                <div class="project-box">
+                    <img class="container image3" src="https://i.pinimg.com/736x/e3/d2/f0/e3d2f0bac1bbcb1e3e328d8685f071cb.jpg">
+                    <div class="project info">
+                        <h3> Task tracker [Js] </h3>
+                        <p> This is the programming language that the tasker app runs on. </p>
+                        <a href="https://github.com/Learner-Oova/rootwork-week-01/blob/assignment/week7-task-tracker/task-tracker/script.js"> View project </a>
                     </div>
-                    <br>
-                    <button> Submit </button>
-                </form>
-            </article>
-        </main>
+                </div>
+            </div>
+        </section>
+        <div class="line"></div>
+        <section id="education-section">
+            <h2> Education </h2>
+            <ul>
+                <li> Microbiology (2021 - 2026)
+                </li>
+                <li> Software Engineering (2026 - present)
+                </li>
+            </ul>
+        </section>
+        <div class="line"></div>
+        <article class="extra">
+            <h2 class="extrahead"> Extracurricular activities </h2>
+            <ul>
+                <li> Football </li>
+                <li> Jogging </li>
+                <li> Chess </li>
+                <li> Long jump </li>
+                <li> Racing games and CODM </li>
+            </ul>
+        </article>
+        <article class="contact">
+            <div class="form-heading">
+                <h2 class="connect let"> Let's connect </h2>
+                <p class="connect num" id="my-number"> +234 701 479 0022 <br> learneroova@gmail.com </p>
+            </div>
+            <form>
+                <label>
+                    <p class="name"> Name </p>
+                    <input type="text" placeholder="Your full name">
+                </label>
+                <label>
+                    <p class="email"> Email </p>
+                    <input type="email" placeholder="aa@gmail.com">
+                </label>
+                <label>
+                    <p class="reason"> Subject/Reason for contact </p>
+                    <textarea placeholder="What is this about?"></textarea> 
+                </label>
+                <label>
+                    <p class="message"> Message </p>
+                    <textarea placeholder="Write your message here"></textarea> 
+                </label>
+                <button class="sendbtn" type="button"> Send message </button>
+            </form>
+        </article>
+    </main>
     <footer>
-            <p>
-                Email: learneroova@gmail.com <br> <br>
-                X (formerly twitter): @LearnerOova
-            </p>
-        <p> Thank you for taking your time to read!! </p>
+        <p> copyright [2026] Ojo-Ariyo Obafemi Victor </p>
     </footer>
-    </div>
 </body>
 </html>
